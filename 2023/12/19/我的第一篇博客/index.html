@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"Hello World","path":"2023/12/19/hello-world/"},{"title":"我的第一篇博客","path":"2023/12/19/我的第一篇博客/"}]`)
+  const posts = JSON.parse(`[{"title":"Hello World","path":"2023/12/19/hello-world/"},{"title":"我的第一篇博客","path":"2023/12/19/我的第一篇博客/"},{"title":"Vol3使用说明","path":"2023/12/19/vol3使用说明/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -264,7 +264,7 @@
         </a>
         <a href="/tags">
           <div>
-            <span>1</span>
+            <span>2</span>
             <span>标签</span>
           </div>
         </a>
@@ -327,7 +327,7 @@
       </h5>
       <p class="main-left--subtitle">
         <span>文章数目：</span>
-        <span>2 篇</span>
+        <span>3 篇</span>
       </p>
       <p class="main-left--subtitle">
         <span>最近动态：</span>
@@ -399,6 +399,11 @@
       </div>
       
         <div class="catelogue catelogue-2">
+          
+            <p>
+              <span>上一篇：</span>
+              <a href="/2023/12/19/vol3使用说明/">Vol3使用说明</a>
+            </p>
            
           
             <p>
