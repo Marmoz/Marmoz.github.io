@@ -975,99 +975,6 @@ article .readmore {
 .copyright.license .license-meta-text a:hover {
   border-bottom-color: #ff5722;
 }
-.recommended-article {
-  overflow: hidden;
-}
-.recommended-article .recommended-article-header {
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 0;
-}
-.recommended-article .recommended-article-group {
-  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
-  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: -ms-flexbox /* TWEENER - IE 10 */;
-  display: -webkit-flex /* NEW - Chrome */;
-  display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -khtml-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -o-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  overflow: hidden;
-}
-@media screen and (max-width: 768px) {
-  .recommended-article .recommended-article-group {
-    height: 190px;
-    overflow: scroll;
-    -ms-overflow-style: none;
-  }
-  .recommended-article .recommended-article-group::-webkit-scrollbar {
-    width: 0 !important;
-  }
-}
-.recommended-article .recommended-article-group .recommended-article-item {
-  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
-  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: -ms-flexbox /* TWEENER - IE 10 */;
-  display: -webkit-flex /* NEW - Chrome */;
-  display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -khtml-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -o-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  -webkit-justify-content: center;
-  -khtml-justify-content: center;
-  -moz-justify-content: center;
-  -o-justify-content: center;
-  -ms-justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  width: calc(100%/3 - 16px);
-  max-height: 200px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 0;
-}
-@media screen and (max-width: 768px) {
-  .recommended-article .recommended-article-group .recommended-article-item {
-    width: calc(100%/2 - 16px);
-  }
-}
-@media screen and (max-width: 500px) {
-  .recommended-article .recommended-article-group .recommended-article-item {
-    width: calc(100% - 16px);
-  }
-}
-.recommended-article .recommended-article-group .recommended-article-item img {
-  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
-  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: -ms-flexbox /* TWEENER - IE 10 */;
-  display: -webkit-flex /* NEW - Chrome */;
-  display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
-  display: flex;
-  width: 100%;
-  height: 150px;
-}
-.recommended-article .recommended-article-group .recommended-article-item span {
-  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
-  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: block;
-  text-align: justify;
-  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
-  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
-}
 footer.footer {
   position: relative;
   padding: 40px 10px 120px 10px;
@@ -1174,155 +1081,39 @@ footer.footer .copyright p {
     -ms-justify-content: center;
   }
 }
-.article.l_friends .friends-group .friend-content {
+.md .simpleuser-group {
+  margin: 0;
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: -ms-flexbox /* TWEENER - IE 10 */;
-  display: -webkit-flex /* NEW - Chrome */;
-  display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -khtml-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -o-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  margin: -8px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  align-items: flex-start;
-  line-height: 1.3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 112px);
 }
-.article.l_friends .friends-group .friend-content .friend-card {
-  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
-  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: -ms-flexbox /* TWEENER - IE 10 */;
-  display: -webkit-flex /* NEW - Chrome */;
-  display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
-  display: flex;
+.md .simpleuser {
+  text-align: center;
+  padding: 1em 0.5em;
   border-radius: 4px;
   -webkit-border-radius: 4px;
-  box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
-  padding: 8px 0;
-  margin: 8px;
-  margin-top: calc(2.25 * 16px + 32px);
-  color: var(--color-meta);
-  background: var(--color-block);
-  justify-content: flex-start;
-  -webkit-justify-content: flex-start;
-  -khtml-justify-content: flex-start;
-  -moz-justify-content: flex-start;
-  -o-justify-content: flex-start;
-  -ms-justify-content: flex-start;
-  align-content: flex-start;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: calc(100%/4 - 16px);
 }
-@media screen and (max-width: 1024px) {
-  .article.l_friends .friends-group .friend-content .friend-card {
-    width: calc(100%/4 - 16px);
-  }
-}
-@media screen and (max-width: 768px) {
-  .article.l_friends .friends-group .friend-content .friend-card {
-    width: calc(100%/3 - 16px);
-  }
-}
-@media screen and (max-width: 500px) {
-  .article.l_friends .friends-group .friend-content .friend-card {
-    width: calc(100%/2 - 16px);
-  }
-}
-.article.l_friends .friends-group .friend-content .friend-card:hover .friend-left .avatar {
-  transform: scale(1.2) rotate(12deg);
-  -webkit-transform: scale(1.2) rotate(12deg);
-  -khtml-transform: scale(1.2) rotate(12deg);
-  -moz-transform: scale(1.2) rotate(12deg);
-  -o-transform: scale(1.2) rotate(12deg);
-  -ms-transform: scale(1.2) rotate(12deg);
-  box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
-}
-.article.l_friends .friends-group .friend-content .friend-card .friend-left {
+.md .simpleuser img {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: -ms-flexbox /* TWEENER - IE 10 */;
-  display: -webkit-flex /* NEW - Chrome */;
-  display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
-  display: flex;
-  align-self: center;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  object-fit: cover;
 }
-.article.l_friends .friends-group .friend-content .friend-card .friend-left .avatar {
-  width: 64px;
-  height: 64px;
-  transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -khtml-transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-  -ms-transition: all 0.28s ease;
-  box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
-  margin: 16px 8px 4px 8px;
-  margin-top: calc(-1.25 * 16px - 32px);
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border: 2px solid #fff;
-  background: #fff;
-}
-.article.l_friends .friends-group .friend-content .friend-card .friend-right {
-  margin: 4px 8px;
+.md .simpleuser img+span {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: -ms-flexbox /* TWEENER - IE 10 */;
-  display: -webkit-flex /* NEW - Chrome */;
-  display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
-  display: flex;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  color: var(--color-text);
 }
-.article.l_friends .friends-group .friend-content .friend-card .friend-right p {
-  text-align: center;
-}
-.article.l_friends .friends-group .friend-content .friend-card .friend-right .friend-tags-wrapper {
-  transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -khtml-transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-  -ms-transition: all 0.28s ease;
-  margin-left: -2px;
-  word-break: break-all;
-}
-.article.l_friends .friends-group .friend-content .friend-card .friend-right p {
-  margin: 0;
-}
-.article.l_friends .friends-group .friend-content .friend-card .friend-right p.friend-name {
-  font-size: 0.8125rem;
-  padding-top: 4px;
-  font-weight: bold;
-}
-.article.l_friends .friends-group .friend-content .friend-card .friend-right p.tags {
-  font-size: 0.78125rem;
-  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
-  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: inline;
-  background: none;
-  word-wrap: break-word;
-  padding-right: 4px;
+.md .simpleuser:hover {
+  background: var(--color-site-bg);
 }
 .md img {
   position: relative;
@@ -1499,7 +1290,7 @@ svg.loading {
   -moz-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
   -ms-transition: all 0.6s ease;
-  z-index: 50;
+  z-index: 9;
   position: fixed;
   width: 48px;
   height: 48px;
@@ -2523,26 +2314,6 @@ img.lazyload:not(.placeholder).loaded {
   -webkit-border-radius: 8px;
   overflow: hidden;
 }
-#u-search .modal .search-icon,
-#u-search .modal #resule-hits-empty {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -khtml-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-#u-search .modal .search-icon i,
-#u-search .modal #resule-hits-empty i {
-  font-size: 8em;
-  color: #e8e8e8;
-  margin-bottom: 10px;
-}
 @media screen and (max-width: 680px) {
   #u-search .modal {
     box-shadow: none;
@@ -2707,8 +2478,6 @@ img.lazyload:not(.placeholder).loaded {
 #u-search .modal .modal-body .modal-results .result b[mark] {
   color: #25be9c;
   text-decoration: underline;
-  font-size: 120%;
-  background-color: #ffe600;
 }
 #u-search .modal .modal-body .modal-results .result:hover {
   background: var(--color-site-bg);
@@ -3399,39 +3168,6 @@ img.lazyload:not(.placeholder).loaded {
   position: sticky;
   top: 80px;
   z-index: 10;
-}
-.bber-talk {
-  padding: 0.2rem 1rem;
-}
-.bber-talk :hover {
-  border-color: #49b1f5;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
-.bber-talk a {
-  color: var(--font-color);
-}
-.bber-talk .talk-list {
-  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
-  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: block !important;
-  max-height: 25px;
-  overflow: hidden;
-}
-.bber-talk .talk-list :hover {
-  color: #49b1f5 !important;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -khtml-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-}
-.bber-talk .talk-list .item {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 98%;
-  overflow: hidden;
 }
 .snackbar-wrap {
   position: fixed;
